@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void gravityFlip(int n) //ascending order
+void gravityFlip(int n)
 {
     cin >> n;
     int cols[n];
