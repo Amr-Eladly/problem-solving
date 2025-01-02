@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class dieRoll {
 
-    public static void main(String[] args) {
+    public static void gcd(){
         Scanner scanner = new Scanner(System.in);
         try {
             int x = scanner.nextInt();
@@ -26,5 +26,8 @@ public class dieRoll {
         } finally {
             scanner.close();
         }
+    }
+    public static void main(String[] args) {
+        gcd();
     }
 }
