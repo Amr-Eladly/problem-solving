@@ -23,17 +23,18 @@ public class teamOlympiad {
                     pe.add(index);
                 }
             }
-            int w = (p>s)? s : p;
-            w = (w>m)? m: w;
-            System.out.println(w );
+            int w = (p > s) ? s : p;
+            w = (w > m) ? m : w;
+            System.out.println(w);
             for (int i = 0; i < w; i++) {
-             System.out.println(math.get(i)+" "+ prog.get(i)+" "+ pe.get(i));   
+                System.out.println(math.get(i) + " " + prog.get(i) + " " + pe.get(i));
             }
         } finally {
             sc.close();
         }
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         combinations();
     }
 }
